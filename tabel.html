@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabel Latihan</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f8f8f8;
+        }
+        .container {
+            text-align: left;
+        }
+        h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        table {
+            border-collapse: collapse;
+        }
+        td {
+            width: 50px;
+            height: 50px;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+            border: 2px solid cyan;
+            /* color: cyan; */
+        }
+        .yellow {
+            background-color: gold;
+            color: white;
+        }
+        .red {
+            background-color: red;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <table>
+            <tr>
+                <td class="yellow" rowspan="2" colspan="2">1</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>7</td>
+                <td class="red" rowspan="2" colspan="2">10</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>9</td>
+            </tr>
+        </table>
+    </div>
+
+</body>
+</html>
+
